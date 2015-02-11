@@ -1,0 +1,6 @@
+<%= form_for(:path, url: main_navigate_path, method: :post) do |f| %>
+  <%= f.label "Amazon url path" %>
+  <%= f.text_field :path %>
+  <%= f.submit %>
+
+<% end %>
